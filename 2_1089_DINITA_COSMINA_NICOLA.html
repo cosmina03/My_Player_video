@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <title>Player Video</title>
+    <link rel="stylesheet" href="2_1089_DINITA_COSMINA_NICOLA.css">
+</head>
+<body>
+    <div id="header">
+        <input type="file" id="add-video" accept="video/*" multiple>
+        <h1>🎥 My Video Player</h1>     
+    </div>
+    <div id="container">
+        <div id="playlist">   
+        </div>
+        <div id="canvas-video">
+            <canvas id="video" width="640" height="360"></canvas> 
+        </div>
+        
+        <div id="effects">
+            <h6>Alege efect</h6>
+            <div class="effect-buttons">
+                <button id="grayscale-effect">Grayscale</button>
+                <button id="sepia-effect">Sepia</button>
+            </div>
+            <div class="viteza">
+            <h6>Schimba viteza videoclipului</h6>
+            <button id="slow-effect">Slow</button>
+            <button id="speed-effect">Speed</button>
+        </div>
+            <button id="reset-effect">Reset</button>
+        </div>
+        
+    </div>
+    
+    
+    <script src="2_1089_DINITA_COSMINA_NICOLA.js"></script>
+</body>
+</html>
